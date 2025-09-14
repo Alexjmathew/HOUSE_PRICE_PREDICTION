@@ -137,4 +137,4 @@ if __name__ == '__main__':
     print(f"Model trained with {len(housing_data)} samples")
     print(f"Training score: {model.score(X_train, y_train):.4f}")
     print(f"Test score: {model.score(X_test, y_test):.4f}")
-    app.run(debug=True, host='0.0.0.0', port=5000)
+    app.run(debug=True, host='0.0.0.0', port=80)
